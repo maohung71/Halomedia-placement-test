@@ -1,24 +1,147 @@
 body{
-  background-color: #05061a;
+  background: #ffffff url("2chainz-goby.png") no-repeat top center;
+  background-size: 100%;
+}
+
+.navbar {
+  background-image:none;
+  background:rgba(0,0,0,0.25);
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+
+}
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+
+.nav-bar-main{
+  margin: .6em 0 0 1.5em;
+  font-weight: bold;
+}
+
+.nav-bar-icons{
+  margin: .6em 1.5em 0 0;
+  border: 1px solid red;
+}
+
+#heroContainer{
+
+  border: 1px solid red;
+  padding-top:0;
+  margin-top: 0;
 }
 
 .carousel-caption{
 
 }
 
-.newAlbum{
-  width: 60%;
-  background-color: white;
-  margin: 0 auto;
+
+/********************* LISTEN ALBUM *********************/
+.album_listen{
+  background-color: none;
+  margin: 8em auto 0;
+
+  border: 1px solid red;
 }
+
+.media img{
+  margin-left: 13em;
+}
+
+.media-body{
+  border: 1px solid blue;
+  padding-left: 0;
+}
+
+.album_list ul{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.album_list ul li{
+  padding: .45em 0;
+}
+
+.album_list ul li a{
+  font-size: .8em;
+  margin-left: -15px;
+  padding-left:0;
+  color: white;
+
+  border: 1px solid red;
+}
+
+.media-body h3, h5{
+  font-weight: bold;
+  color: cyan;
+}
+.media-body .btn-outline-primary{
+  font-size: .6em;
+  font-weight: bold;
+  color: white;
+  margin: 1em 0 2em;
+  padding: 1em 4em;
+
+}
+
+/********************* NEWS *********************/
+
 
 .news{
-  width: 75%;
-  color: #fff;
-  margin: 0 auto;
+  margin: 8em auto 0;
+  border: 1px solid blue;
+
 }
 
+.news img{
+
+  border: 1px solid blue;
+
+}
+
+.news .col-6{
+  border: 1px solid red;
+}
+
+.news .col-3{
+  border: 1px solid red;
+}
+
+.news h3{
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 1.3em;
+  color: red;
+}
+
+.news-button{
+  margin: 3em auto 0;
+  padding: 1em 8em;
+}
+
+.news-button .btn{
+  padding: .8em 4em;
+  font-weight: bold;
+}
+
+
+/********************* TOUR *********************/
+
 .tour{
+  margin: 11em auto 0;
+
   border: 1px solid red;
   /*background: #ffffff url("../assets/2chainz_tour.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -26,10 +149,135 @@ body{
   -o-background-size: cover;
   background-size: cover;
   padding-top: 10em;*/
-}
-
-.table{
-  color: #fff;
-  border: 0px;
 
 }
+
+table{
+  margin-left: 3em;
+  font-size: 1.2em;
+  padding: 0;
+  color: yellow;
+}
+
+.table-borderless td,
+.table-borderless th{
+  border: none;
+}
+
+tbody th,
+tbody td {
+border: 1px solid red;
+}
+
+.tour_dates{
+  margin-bottom: 1.5em;
+}
+
+.tour_dates h3{
+  margin-top: .3em;
+  margin-left: 2.2em;
+  font-size: 2em;
+  font-weight: bold;
+  color: blue;
+
+}
+
+.tour-arena{
+  font-weight: bold;
+
+}
+
+.tour-tix{
+  margin-left: 3em;
+}
+
+.tour-tix .btn{
+  font-size: .6em;
+  font-weight: bold;
+  margin: 0;
+  padding: .4em 3em 0 2em;
+}
+
+
+/********************* NEWSLETTER *********************/
+
+
+.newsletter{
+  margin: 15em auto 0;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.newsletter h3{
+  margin: .8em auto 1.8em;
+  font-weight: bold;
+  font-size: 2em;
+  color: yellow;
+}
+
+.newsletter p {
+  color: yellow;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+
+  border: 1px solid red;
+}
+
+form {
+  margin-bottom: 2.4em;
+}
+
+.subscribe{
+  margin-bottom: .2em;
+  word-spacing: 6px;
+}
+
+.recordlabel{
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  word-spacing:  8px;
+}
+
+.privacy{
+  margin-top: 1.6em;
+  margin-bottom: 2.2em;
+  word-spacing: 6px;
+}
+
+.news_subscribe{
+  padding: 1em 4.6em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+/********************* FOOTER *********************/
+
+footer{
+  margin-top: 4.5em;
+}
+
+.footer-copyrights{
+  font-size: .9em;
+  font-weight: bold;
+  padding-left: 0;
+
+  border: 1px solid red;
+}
+
+.footer-links{
+  font-size: .8em;
+  padding-right: 0;
+
+  border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+

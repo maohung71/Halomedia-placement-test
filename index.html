@@ -9,14 +9,14 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-default navbar-expand-lg">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
           <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse dual-nav">
+      <div class="navbar-collapse collapse dual-nav nav-bar-main">
           <ul class="navbar-nav">
               <li class="nav-item active">
-                  <a class="nav-link pl-0" href="#">Home <span class="sr-only">NEWS</span></a>
+                  <a class="nav-link pl-0" href="#">NEWS </a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#">MUSIC</a>
@@ -32,8 +32,8 @@
               </li>
           </ul>
       </div>
-      <a href="/" class="navbar-brand mr-0">Brand</a>
-      <div class="navbar-collapse collapse dual-nav">
+      <a href="/" class="navbar-brand mr-0 navbar-brand-centered">Brand</a>
+      <div class="navbar-collapse collapse dual-nav navbar-right nav-bar-icons">
           <ul class="nav navbar-nav ml-auto">
               <!-- <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li> -->
               <li class="nav-item"><a class="nav-link" href="">facebook</a></li>
@@ -44,7 +44,6 @@
               <li class="nav-item"><a class="nav-link" href="">cloud</a></li>
               <li class="nav-item"><a class="nav-link" href="">email</a></li>
               <li class="nav-item"><a class="nav-link" href="">login</a></li>
-
           </ul>
       </div>
   </nav><!-- end Navigation -->
@@ -82,85 +81,197 @@
     </div><!-- end CarouselExampleIndicators -->
   </section><!-- end heroContainer -->
 
-  <section class="newAlbum">
+  <section class="album_listen">
     <div class="media">
-          <img class="mr-3 col-5" src="assets/2chainz_listen.jpg" alt="Generic placeholder image">
-          <div class="media-body col-6">
-            <h5 class="mt-0">NEW ALBUM</h3>
-            <h3 class="mt-0">Pretty Girls Like Trap Music</h5>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </div>
-        </div><!-- end media -->
-  </section> <!-- end section New Album -->
+      <img class="mr-3 col-3 offset-1 img-fluid" src="assets/2chainz_listen.jpg" alt="Album Cover image">
+          <div class="media-body col-7">
+            <h5 class="mt-0">NEW ALBUM</h5>
+            <h3 class="mt-0">Pretty Girls Like Trap Music</h3>
+            <div class="play_button">
+              <button type="button" class="btn btn-outline-primary">SPOTIFY</button>
+              <button type="button" class="btn btn-outline-primary">ITUNES</button>
+              <button type="button" class="btn btn-outline-primary">GOOGLE PLAY</button>
+              <button type="button" class="btn btn-outline-primary">AMAZON MUSIC</button>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-5 album_list">
+                  <ul >
+                    <li><a href="">1 Good Drank - 2 Chainz, Gucci Mane, Quavo</a></li>
+                    <li><a href="">2 Champions - Kanye West, Gucci Mabne, Big Sean</a></li>
+                    <li><a href="">3 Watch Out - 2 Chainz</a></li>
+                    <li><a href="">4 It’s a Vibe - 2 Chainz, Ty Dolla $ign, Trey Songz </a></li>
+                    <li><a href="">5 Good Drank 2.0 - 2 Chainz, Gucci Mane, Quavo</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 album_list">
+                  <ul>
+                    <li><a href="">6 We Own It (Fast & Furious) - 2 Chainz, Wiz Khalifa</a></li>
+                    <li><a href="">7 Big Amount - 2 Chainz</a></li>
+                    <li><a href="">8 Smartphone - 2 Chainz</a></li>
+                    <li><a href="">9  El Chapo Jr - 2 Chainz</a></li>
+                    <li><a href="">10 I’m Diferent - 2 Chainz</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end media body-->
+      </div> <!-- end media -->
+  </section> <!-- end section Album Listen-->
+
 
   <section class="news">
-    <div class="row">
-      <div class="col-6 mainnews">
-        <img class="mr-3" src="assets/2chainz_news_1.jpg" alt="Generic placeholder image">
-      </div><!-- col-6 mainnews-->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h3>NEWS</h3>
+        </div>
+      </div><!-- end row-->
 
-      <div class="col-6 subnews">
-        <div class="row">
-          <a class="col-6 pr-3" href="#">
-            <img src="assets/2chainz_news_2.jpg" alt="Generic placeholder image">
+      <div class="row">
+        <div class="col-6">
+          <a>
+            <img class="mr-3 img-fluid" src="assets/2chainz_news_1.jpg" alt="News image1">
           </a>
-          <a class="col-6 pr-3" href="#">
-            <img src="assets/2chainz_news_3.jpg" alt="Generic placeholder image">
-          </a>
-          <a class="col-6 pr-3" href="#">
-            <img src="assets/2chainz_news_4.jpg" alt="Generic placeholder image">
-          </a>
-          <a class="col-6 pr-3" href="#">
-            <img src="assets/2chainz_news_5.jpg" alt="Generic placeholder image">
-          </a>
-        </div><!-- row -->
-      </div><!-- end subnews-->
+        </div><!-- end col-5-->
 
-    </div><!-- end news row -->
+        <div class="col-3 subnews">
+          <a class="pr-3" href="#">
+            <img class="mr-3 img-fluid" src="<!-- assets/2chainz_news_2.jpg -->" alt="Generic placeholder image">
+          </a>
+          <a class="pr-3" href="#">
+            <img class="mr-3 img-fluid" src="<!-- assets/2chainz_news_3.jpg -->" alt="Generic placeholder image">
+          </a>
+        </div><!-- col-3 sub-->
+
+        <div class="col-3 subnews">
+          <a class="pr-3" href="#">
+            <img class="mr-3 img-fluid" src="<!-- assets/2chainz_news_4.jpg -->" alt="Generic placeholder image">
+          </a>
+          <a class="pr-3" href="#">
+            <img class="mr-3 img-fluid" src="<!-- assets/2chainz_news_5.jpg -->" alt="Generic placeholder image">
+          </a>
+        </div><!-- end col-3 subnews-->
+      </div><!-- end  row -->
+
+       <div class="row">
+        <div class="news-button">
+          <button type="button" class="btn btn-outline-primary">SPOTIFY</button>
+        </div>
+      </div>
+      <div class="row">
+    </div><!-- end container -->
   </section><!-- end section News -->
 
+
   <section class="tour">
-    <div class="row">
-      <div class="col-8 offset-3">
-        <table class="table  tourtable">
-          <thead>
-            <tr>
-              <th>Tour Date</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Apr14</th>
-              <td>CRISLER CENTER</td>
-              <td>Oklahoma City, OK</td>
-              <td>tickets</td>
-            </tr>
-            <tr>
-              <th scope="row">Apr22</th>
-              <td>Pozo Saloon</td>
-              <td>Santa Margarita, CA</td>
-              <td>tickets</td>
-            </tr>
-            <tr>
-              <th scope="row">Apr23</th>
-              <td>Mullins Center</td>
-              <td>Amherst, MA</td>
-              <td>tickets</td>
-            </tr>
-            <tr>
-              <th scope="row">Apr28</th>
-              <td>LiaCouras Center</td>
-              <td>Philadelphia, PA</td>
-              <td>tickets</td>
-            </tr>
-          </tbody>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 offset-3 tour_dates">
+          <h3>TOUR DATES</h3>
+        </div><!-- end section News -->
+      </div><!-- end row-->
+
+      <div class="row">
+        <div class="col-8 offset-3">
+          <table class="table table-borderless">
+            <tbody>
+              <tr>
+                <th scope="row" class="tour-day">Apr14</th>
+                <td class="tour-arena">CRISLER CENTER</td>
+                <td class="tour-city">Ann Arbor, MI</td>
+                <td class="tour-tix"><button type="button" class="btn btn-outline-primary">TICKETS</button></td>
+              </tr>
+              <tr>
+                <th scope="row" class="tour-day">Apr19</th>
+                <td class="tour-arena">LOST LAKES AMPITHEATRE</td>
+                <td class="tour-city">Oklahoma City, OK</td>
+                <td class="tour-tix"><button type="button" class="btn btn-outline-primary">TICKETS</button></td>
+              </tr>
+              <tr>
+                <th scope="row" class="tour-day">Apr22</th>
+                <td class="tour-arena">Pozo Saloon</td>
+                <td class="tour-city">Santa Margarita, CA</td>
+                <td class="tour-tix"><button type="button" class="btn btn-outline-primary">TICKETS</button></td>
+              </tr>
+              <tr>
+                <th scope="row" class="tour-day">Apr23</th>
+                <td class="tour-arena">Mullins Center</td>
+                <td class="tour-city">Amherst, MA</td>
+                <td class="tour-tix"><button type="button" class="btn btn-outline-primary">TICKETS</button></td>
+              </tr>
+              <tr>
+                <th scope="row" class="tour-day">Apr28</th>
+                <td class="tour-arena">LiaCouras Center</td>
+                <td class="tour-city">Philadelphia, PA</td>
+                <td class="tour-tix"><button type="button" class="btn btn-outline-primary">TICKETS</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- end col-8 offset-3 -->
+      </div><!-- end row -->
+    </div> <!-- end container -->
+  </section> <!-- end section Tour -->
+
+
+
+  <section class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3>NEWSLETTER</h3>
         </div>
-      </table>
-    </div>
-    <!-- <img class="mr-3" src="assets/2chainz_tour.jpg" alt="Generic placeholder image"> -->
-  </section><!-- end section Tour -->
+      </div><!-- end row-->
+      <form class="form-inline">
+        <label class="sr-only" for="inlineFormInputGroup">Email</label>
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0  col-lg-5 offset-lg-1">
+          <input type="text" class="form-control" id="inlineFormInput" placeholder="Email Address *">
+        </div><!-- end input -->
 
+        <label class="sr-only" for="inlineFormInputGroup">ZipCode</label>
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0 col-lg-5">
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Zip Code *">
+        </div><!-- end input -->
+      </form>
 
+      <div class="row subscribe">
+        <p>SUBSCRIBE TO EMAIL UPDATES FROM:</p>
+      </div>
+      <div class="row recordlabel">
+        <p>2 Chainz  Def Jam Records  Universal Music Group</p>
+      </div>
+      <div class="row privacy">
+        <p>By selecting submit you agree to the Universal Music Group privacy policy.</p>
+      </div>
+
+      <button type="submit" class="btn btn-outline-primary news_subscribe">Submit</button>
+    </div><!-- end container -->
+  </section><!-- end newsletter -->
+
+  <footer class="footer">
+    <div class="container col-lg-10">
+      <div class="row">
+        <div class="col-7">
+          <ul class="list-inline footer-copyrights">
+            <li class="list-inline-item"><a class="nav-link" href="">©2017 DEF JAM RECORDS</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">TERMS & CONDITIONS</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">PRIVATE POLICY</a></li>
+          </ul>
+        </div><!-- end row -->
+        <div class="col-5">
+          <ul class="list-inline footer-links">
+            <li class="list-inline-item"><a class="nav-link" href="">face</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">inst</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">spot</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">twit</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">yout</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">clou</a></li>
+            <li class="list-inline-item"><a class="nav-link" href="">emai</a></li>
+          </ul>
+        </div><!-- end row -->
+      </div><!-- end row -->
+    </div><!-- end container -->
+  </footer>
 
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script> -->
