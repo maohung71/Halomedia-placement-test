@@ -1,3 +1,35 @@
 body{
-  /*background-color: #05061a;*/
+  background-color: #05061a;
+}
+
+.carousel-caption{
+
+}
+
+.newAlbum{
+  width: 60%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.news{
+  width: 75%;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.tour{
+  border: 1px solid red;
+  /*background: #ffffff url("../assets/2chainz_tour.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10em;*/
+}
+
+.table{
+  color: #fff;
+  border: 0px;
+
 }
