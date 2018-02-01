@@ -1,13 +1,20 @@
 /********************* GLOBAL *********************/
 body{
   font-family: 'Work Sans', sans-serif;
-  background: #ffffff url("2chainz-goby.png") no-repeat top center;
-  background-size: 100%;
+  /*background: #ffffff url("2chainz-goby.png") no-repeat top center;
+  background-size: 100%;*/
+  background-color: #05061a;
 }
 
 .btn{
   border-radius: 0;
+  background-color: #081c40;
+  color: #fff;
+  border: 0;
 }
+
+
+/********************* NAVBAR *********************/
 
 .navbar {
   background-image:none;
@@ -27,7 +34,7 @@ body{
   font-weight: bold;
 }
 
-.navbar-brand-centered {
+/*.navbar-brand-centered {
     position: absolute;
     left: 50%;
     display: block;
@@ -39,13 +46,20 @@ body{
 .navbar>.container .navbar-brand-centered,
 .navbar>.container-fluid .navbar-brand-centered {
     margin-left: -80px;
+}*/
+
+.navbar-brand-centered{
+  font-family: 'American Typewriter', sans-serif;
+  font-size: 2.6em;
+  padding-right: 1em;
 }
 
 
 
 .nav-bar-icons{
   margin: .6em 1.5em 0 0;
-  border: 1px solid red;
+
+  /*border: 1px solid red;*/
 }
 
 
@@ -87,6 +101,9 @@ body{
   font-weight: bold;
   word-spacing: 2px;
   padding: .6em 2.4em;
+  background-color: #1d2133;
+  border-right: 2px solid #4e5771;
+  border-bottom: 2px solid #4e5771;
 }
 
 
@@ -119,23 +136,30 @@ body{
 .media-body h5{
   letter-spacing: 3px;
   word-spacing: 5px;
+  color: #cc923a;
 }
 
 .media-body h3, h5{
   font-weight: bold;
-  color: cyan;
+  color: white;
 }
 .media-body .btn-outline-primary{
   font-size: .6em;
   font-weight: bold;
   color: white;
-  margin: 1em 0 2em;
-  padding: 1em 4em;
+  margin: 1em .8em 2em 0;
+  padding: 1em 0;
+  width: 7.2rem;
+}
+
+.album_list{
+  margin-right: 1.6em;
 }
 
 .album_list ul{
   padding-left: 0;
   margin-left: 0;
+  list-style-type: none;
 }
 
 .album_list ul li{
@@ -143,51 +167,131 @@ body{
 }
 
 .album_list ul li a{
-  font-size: .8em;
+  font-size: .75em;
   margin-left: -15px;
   padding-left:0;
-  list-style-type: none;
   color: cyan;
 
   /*border: 1px solid red;*/
+}
+
+
+.album_list ul li a .track_number{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1em;
+  color: #cc923a;
+  padding: 0 8px;
+}
+
+.album_list ul li a .track_number_icon{
+  color: #cc923a;
 }
 
 /********************* NEWS *********************/
 
 .news{
   margin: 8em auto 0;
-  border: 1px solid blue;
-}
 
-.news img{
   border: 1px solid blue;
-
 }
 
 .news .col-6{
-  border: 1px solid red;
+  padding: .2em;
+  margin: 0;
 }
 
 .news .col-3{
-  border: 1px solid red;
+  padding: 2px 3px;
+  margin:0;
+  /*border: 1px solid red;*/
+}
+
+.subnews a img:first-child{
+  margin-bottom: .6em;
 }
 
 .news h3{
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: bold;
-  letter-spacing: 11px;
+  letter-spacing: 10px;
   margin-bottom: 1em;
-  color: blue;
+  color: #cc923a;
 }
 
 .news-button{
-  margin: 3em auto 0;
+  margin: 1.6em auto 0;
   padding: 1em 8em;
 }
 
 .news-button .btn{
-  padding: .8em 4em;
+  padding: .8em 3.6em;
   font-weight: bold;
+  border-right: 2px solid #2d3d62;
+  border-bottom: 2px solid #2d3d62;
+}
+
+.news .card{
+  border-radius: 0;
+  border: none;
+}
+
+.card img{
+  background-color: none;
+}
+
+.card img{
+border-radius: 0;
+}
+
+.card-block {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    width: inherit;
+    padding: 16px 8px 2px;
+    font-size: 13px;
+    word-spacing: 2px;
+    background-color: #081c40;
+    background-color: rgba(8,28,64,0.8);
+
+    color: #fff;
+    text-align: center;
+}
+
+.card-block-small {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: inherit;
+    padding: 10px 30px 10px;
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;*/
+    font-size: 12px;
+    word-spacing: 0;
+    background-color: #081c40;
+    background-color: rgba(8,28,64,0.8);
+
+    color: #fff;
+    text-align: center;
+}
+
+.card-text{
+  margin-bottom: 0;
+}
+
+.card-text-small{
+  color: #455478;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+
+.card-top{
+  margin-bottom: .6em;
 }
 
 
@@ -207,50 +311,73 @@ body{
 }
 
 table{
-  margin-left: 3em;
+  margin-top: 1.4rem;
+  margin-left: 3.4em;
   font-size: 1.2em;
-  padding: 0;
-  color: yellow;
+  padding-right: 3em;
+  word-spacing: 10px;
+  color: white;
 }
+
+
+.table td, .table th{
+  padding-top: .1em;
+  padding-bottom: .2em;
+  padding-left: .1rem;
+  padding-right: .5rem;
+}
+
 
 .table-borderless td,
 .table-borderless th{
   border: none;
 }
 
-tbody th,
-tbody td {
-border: 1px solid red;
-}
 
-.tour_dates{
-  margin-bottom: 1.5em;
-}
-
-.tour_dates h3{
-  margin-top: .3em;
-  margin-left: 2.2em;
+.tour_title h3{
+  margin-top: .2em;
+  margin-left: 2em;
   font-size: 2em;
   font-weight: bold;
-  color: blue;
-
+  letter-spacing: 10px;
+  color: #cc923a;
 }
+
 
 .tour-arena{
   font-weight: bold;
+  padding-right: 0;
+}
+
+.tour-date{
+  font-size: .8em;
+  font-weight: 700;
+  color: #cc923a;
 
 }
 
 .tour-tix{
-  margin-left: 3em;
+  padding-left:2em;
 }
+
+
+.tour-day{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #fff;
+
+}
+
 
 .tour-tix .btn{
   font-size: .6em;
   font-weight: bold;
-  margin: 0;
-  padding: .4em 3em 0 2em;
+  padding: .8em 3em;
 }
+
+
+
 
 
 /********************* NEWSLETTER *********************/
@@ -259,6 +386,7 @@ border: 1px solid red;
 .newsletter{
   margin: 15em auto 0;
   text-align: center;
+
   border: 1px solid red;
 }
 
@@ -266,16 +394,15 @@ border: 1px solid red;
   margin: .8em auto 1.8em;
   font-weight: bold;
   font-size: 2em;
-  color: yellow;
+  letter-spacing: 10px;
+  color: #cc923a;
 }
 
 .newsletter p {
-  color: yellow;
   margin: 0 auto;
   display: inline-block;
   text-align: center;
-
-  border: 1px solid red;
+  color: #fff;
 }
 
 form {
@@ -287,16 +414,8 @@ form {
   word-spacing: 6px;
 }
 
-.recordlabel{
-  font-size: 1.2em;
-  letter-spacing: 2px;
-  word-spacing:  8px;
-}
-
-.privacy{
-  margin-top: 1.6em;
-  margin-bottom: 2.2em;
-  word-spacing: 6px;
+.subscribe p{
+  color: #cc923a;
 }
 
 .news_subscribe{
@@ -304,6 +423,42 @@ form {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
+.recordlabel{
+  font-size: 1.2em;
+  word-spacing: 7px;
+  text-align: center;
+  display: inline-block;
+  margin: .4em auto 0;
+  padding-bottom: 0;
+  line-height: 0;
+}
+
+.recordlabel ul{
+  margin: 0 auto 0;
+}
+.recordlabel ul li a{
+  margin: 0;
+  padding:0 .6em;
+  color: #fff;
+}
+
+.icon-check{
+  padding-right:.3em;
+}
+
+.privacy{
+  font-size: .9em;
+  margin-top: 1.6em;
+  margin-bottom: 2.2em;
+  word-spacing: 6px;
+}
+
+.newsletter .btn{
+  border-right: 2px solid #2d3d62;
+  border-bottom: 2px solid #2d3d62;
+}
+
 
 
 /********************* FOOTER *********************/
@@ -321,11 +476,21 @@ footer{
 }
 
 .footer-links{
-  font-size: .8em;
-  padding-right: 0;
+  font-size: .9em;
+  margin-left: 3em;
 
   border: 1px solid red;
 }
+
+.footer-links .nav-link{
+  margin-top: .6em;
+  margin-left: 1em;
+  padding: .2em 1em 0 0;
+  /*color: #ffffff;*/
+
+  border: 1px solid red;
+}
+
 
 
 

@@ -1,0 +1,106 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "240979dd9fcf2e46250e66792edb8092",
+      "css": "facebook",
+      "code": 62208,
+      "src": "brandico"
+    },
+    {
+      "uid": "4c01f5d3ba5fbf029bca8630cce41e6a",
+      "css": "twitter-bird",
+      "code": 62211,
+      "src": "brandico"
+    },
+    {
+      "uid": "dad4e7f8dc2e57c92cffc0231202d9a0",
+      "css": "instagram",
+      "code": 62238,
+      "src": "brandico"
+    },
+    {
+      "uid": "ccc2329632396dc096bb638d4b46fb98",
+      "css": "mail-alt",
+      "code": 61664,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "884cfc3e6e2d456dd2a2ca0dbb9e6337",
+      "css": "left-open-big",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "004882ab2d5c418c5b2060e80596279b",
+      "css": "right-open-big",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "ce06b5805120d0c2f8d60cd3f1a4fdb5",
+      "css": "play",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "897cd776b90c71cb80b467fd9f509775",
+      "css": "youtube",
+      "code": 62229,
+      "src": "modernpics"
+    },
+    {
+      "uid": "d6096cb47cc4448ac68b6a2e2c52a81d",
+      "css": "itunes",
+      "code": 59395,
+      "src": "zocial"
+    },
+    {
+      "uid": "2f85c90013c0af641d18b167ec93d165",
+      "css": "amazon",
+      "code": 59396,
+      "src": "zocial"
+    },
+    {
+      "uid": "909f99f11c6b6551bf757b6e809f98f3",
+      "css": "googleplay",
+      "code": 59397,
+      "src": "zocial"
+    },
+    {
+      "uid": "fb4794d89b77ab712ad56c0dc4c76c6b",
+      "css": "spotify-1",
+      "code": 61884,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "dff942d95eb1b3f1be140e622d0a7c74",
+      "css": "soundcloud-1",
+      "code": 61886,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "dd6c6b221a1088ff8a9b9cd32d0b3dd5",
+      "css": "check",
+      "code": 59398,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a204f0fa972408eaae5a363c444991b2",
+      "css": "login",
+      "code": 59399,
+      "src": "entypo"
+    },
+    {
+      "uid": "5717236f6134afe2d2a278a5c9b3927a",
+      "css": "play-circled",
+      "code": 61764,
+      "src": "fontawesome"
+    }
+  ]
+}
