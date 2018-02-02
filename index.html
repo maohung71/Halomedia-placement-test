@@ -5,20 +5,21 @@
   <title>2Chainz</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive_style.css">
   <link rel="stylesheet" type="text/css" href="fontello/css/fontello.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Work+Sans:300,400,500,700" rel="stylesheet">
 
 </head>
 <body>
 
-  <nav class="navbar navbar-default navbar-expand-lg">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse navbar-expand-lg">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".dual-nav">
           <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse dual-nav nav-bar-main">
           <ul class="navbar-nav">
-              <li class="nav-item active">
-                  <a class="nav-link" href="#">NEWS </a>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">NEWS </a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#">MUSIC</a>
@@ -35,10 +36,10 @@
           </ul>
       </div><!-- end NAV-BAR-MAIN -->
       <a href="/" class="navbar-brand mr-0 navbar-brand-centered"> 2 CHAINZ</a>
+
       <div class="navbar-collapse collapse dual-nav nav-bar-icons">
           <ul class="nav navbar-nav ml-auto">
-              <!-- <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li> -->
-              <li class="nav-item"><a class="nav-link" href=""><i class="demo-icon icon-facebook"></i></a></li>
+              <li class="nav-item"><a class="nav-link active" href=""><i class="demo-icon icon-facebook"></i></a></li>
               <li class="nav-item"><a class="nav-link" href=""><i class="demo-icon icon-instagram"></i></a></li>
               <li class="nav-item"><a class="nav-link" href=""><i class="demo-icon icon-spotify-1"></i></a></li>
               <li class="nav-item"><a class="nav-link" href=""><i class="demo-icon icon-twitter-bird"></i></a></li>
@@ -59,26 +60,25 @@
       </ol> -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="assets/2chainz_hero.jpg" alt="First slide">
+          <img class="d-block" src="images/2chainz_hero.jpg" alt="First slide">
 
-          <div class="carousel-caption d-none d-md-block ">
+          <div class="carousel-caption">
             <div class="row">
-              <div class="col-8 offset-2">
+              <div class="col-lg-8 col-md-10 col-sm-10 col-10 offset-lg-2">
                 <h1>Pretty Girls </h1>
                 <h1><span class="align-text-top">Like Trap Music</span></h1>
-                <button type="submit" class="btn btn-outline-primary">LISTEN NOW</button>
-                <img class="caption_arrow" src="assets/arrow_down.png" alt="arrow">
+                <button type="submit" class="btn btn-outline-primary" id="listenNowBtn">LISTEN NOW</button>
               </div><!-- end col -->
             </div><!-- end row -->
           </div><!-- end caption -->
         </div><!-- end carousel-item active -->
 
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <img class="d-block w-100" src="..." alt="Second slide">
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="..." alt="Third slide">
-        </div>
+        </div> -->
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-thin-control-prev" aria-hidden="true"><i class="demo-icon icon-left-open-big"></i></span>
@@ -94,117 +94,120 @@
 
   <section class="album_listen">
     <div class="media">
-      <img class="mr-3 col-3 offset-1 img-fluid" src="assets/2chainz_listen.jpg" alt="Album Cover image">
-          <div class="media-body col-7">
-            <h5 class="mt-0">NEW ALBUM</h5>
-            <h3 class="mt-0"><span>Pretty Girls Like Trap Music</span></h3>
-            <div class="play_button">
-              <button type="button" class="btn btn-outline-primary"><i class="demo-icon icon-spotify-1"></i>SPOTIFY</button>
-              <button type="button" class="btn btn-outline-primary"><i class="demo-icon icon-itunes"></i>ITUNES</button>
-              <button type="button" class="btn btn-outline-primary"><i class="demo-icon icon-googleplay"></i> GOOGLE PLAY</button>
-              <button type="button" class="btn btn-outline-primary"><i class="demo-icon icon-amazon"></i> AMAZON MUSIC</button>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-5 album_list">
-                  <ul >
-                    <li><a href=""><span class="track_number_icon"><i class="demo-icon icon-play-circled"></i></span> Good Drank - 2 Chainz, Gucci Mane, Quavo</a></li>
-                    <li><a href=""><span class="track_number">2</span> Champions - Kanye West, Gucci Mabne, Big Sean</a></li>
-                    <li><a href=""><span class="track_number">3</span> Watch Out - 2 Chainz</a></li>
-                    <li><a href=""><span class="track_number">4</span> It’s a Vibe - 2 Chainz, Ty Dolla $ign, Trey Songz </a></li>
-                    <li><a href=""><span class="track_number">5</span> Good Drank 2.0 - 2 Chainz, Gucci Mane, Quavo</a></li>
-                  </ul>
-                </div>
-                <div class="col-6 album_list">
-                  <ul>
-                    <li><a href=""><span class="track_number">6</span> We Own It (Fast & Furious) - 2 Chainz, Wiz Khalifa</a></li>
-                    <li><a href=""><span class="track_number">7</span> Big Amount - 2 Chainz</a></li>
-                    <li><a href=""><span class="track_number">8</span> Smartphone - 2 Chainz</a></li>
-                    <li><a href=""><span class="track_number">9</span>  El Chapo Jr - 2 Chainz</a></li>
-                    <li><a href=""><span class="track_number">10</span> I’m Diferent - 2 Chainz</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> <!-- end media body-->
+      <img class="col-lg-3 col-sm-3 col-12 offset-lg-1" src="images/2chainz_listen.jpg" alt="Album Cover image">
+
+        <div class="media-body col-lg-7 col-sm-9 col-12">
+          <h5 class="mt-0">NEW ALBUM</h5>
+          <h3 class="mt-0"><span>Pretty Girls Like Trap Music</span></h3>
+
+          <div class="play_button">
+            <button type="button" class="btn btn-outline-primary"><i class="demo-icon icon-spotify-1"></i>SPOTIFY</button>
+            <button type="button" class="btn btn-outline-primary"><i class="demo-icon icon-itunes"></i>ITUNES</button>
+            <button type="button" class="btn btn-outline-primary"><i class="demo-icon icon-googleplay"></i> GOOGLE PLAY</button>
+            <button type="button" class="btn btn-outline-primary"><i class="demo-icon icon-amazon"></i> AMAZON MUSIC</button>
+          </div><!-- end play_button-->
+
+           <div class="container">
+             <div class="row">
+               <div class="col-lg-5 col-md-6 col-sm-12 col-12 album_list">
+                 <ul >
+                   <li><a href=""><span class="track_number_icon"><i class="demo-icon icon-play-circled"></i></span> Good Drank - 2 Chainz, Gucci Mane, Quavo</a></li>
+                   <li><a href=""><span class="track_number">2</span> Champions - Kanye West, Gucci Mabne, Big Sean</a></li>
+                   <li><a href=""><span class="track_number">3</span> Watch Out - 2 Chainz</a></li>
+                   <li><a href=""><span class="track_number">4</span> It’s a Vibe - 2 Chainz, Ty Dolla $ign, Trey Songz </a></li>
+                   <li><a href=""><span class="track_number">5</span> Good Drank 2.0 - 2 Chainz, Gucci Mane, Quavo</a></li>
+                 </ul>
+               </div>
+               <div class="col-lg-6 col-md-6 col-sm-12 col-12 album_list">
+                 <ul>
+                   <li><a href=""><span class="track_number">6</span> We Own It (Fast & Furious) - 2 Chainz, Wiz Khalifa</a></li>
+                   <li><a href=""><span class="track_number">7</span> Big Amount - 2 Chainz</a></li>
+                   <li><a href=""><span class="track_number">8</span> Smartphone - 2 Chainz</a></li>
+                   <li><a href=""><span class="track_number">9</span>  El Chapo Jr - 2 Chainz</a></li>
+                   <li><a href=""><span class="track_number">10</span> I’m Diferent - 2 Chainz</a</li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+         </div> <!-- end media body-->
       </div> <!-- end media -->
   </section> <!-- end section Album Listen-->
 
   <section class="news">
-    <div class="container">
-      <div class="row">
-        <div>
-          <h3>NEWS</h3>
-        </div>
-      </div><!-- end row-->
-
-      <div class="row">
-        <div class="col-6">
-          <img   id="news_card" class="card-img" src="assets/2chainz_news_1.jpg" alt="Card image">
-          <div class="card-block">
-            <p class="card-text">WATCH 2 CHAINZ & LIL WAYNE’S NEW VIDEO “BOUNCE” </p>
-            <p class="card-text card-text-small ">read more <i class="demo-icon icon-right-open-big"></i></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+            <h3>NEWS</h3>
           </div>
-        </div><!-- end card 1-->
+        </div><!-- end row-->
 
-        <div class="col-3 subnews">
-          <div class="card card-top">
-            <img class="card-img" src="assets/2chainz_news_2.jpg" alt="Card image">
-            <div class="card-block card-block-small">
-              <p class="card-text">GET THE DABBIN THIS HOLIDAY SEASON & PURCHASE THE...</p>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <img   id="news_card" class="card-img" src="images/2chainz_news_1.jpg" alt="Card image">
+            <div class="card-block">
+              <p class="card-text">WATCH 2 CHAINZ & LIL WAYNE’S NEW VIDEO “BOUNCE” </p>
+              <p class="card-text card-text-small ">read more <i class="demo-icon icon-right-open-big"></i></p>
             </div>
-          </div><!-- end card 2-->
+          </div><!-- end card 1-->
 
-          <div class="card">
-            <img class="card-img" src="assets/2chainz_news_4.jpg" alt="Card image">
-            <div class="card-block card-block-small">
-              <p class="card-text">WATCH OUT! 2 CHAINZ PREMIERES NEW MUSIC ON 1ST ANNUAL BET...</p>
-            </div>
-          </div><!-- end card 3-->
-        </div><!-- col-3 sub-->
+          <div class="col-lg-3 col-sm-6 subnews">
+            <div class="card card-top">
+              <img class="card-img" src="images/2chainz_news_2.jpg" alt="Card image">
+              <div class="card-block-small">
+                <p class="card-text">GET THE DABBIN THIS HOLIDAY SEASON & PURCHASE THE...</p>
+              </div>
+            </div><!-- end card 2-->
 
-        <div class="col-3 subnews">
-          <div class="card card-top">
-            <img class="card-img" src="assets/2chainz_news_3.jpg" alt="Card image">
-            <div class="card-block card-block-small">
-              <p class="card-text">2 CHAINZ PERFORMING LIVE AT HEMPCON NOV. 7TH</p>
-            </div>
-        </div><!-- end card 4-->
+            <div class="card">
+              <img class="card-img" src="images/2chainz_news_4.jpg" alt="Card image">
+              <div class="card-block card-block-small">
+                <p class="card-text">WATCH OUT! 2 CHAINZ PREMIERES NEW MUSIC ON 1ST ANNUAL BET...</p>
+              </div>
+            </div><!-- end card 3-->
+          </div><!-- col-3 sub-->
 
-          <div class="card">
-            <img class="card-img" src="assets/2chainz_news_5.jpg" alt="Card image">
-            <div class="card-block card-block-small">
-              <p class="card-text">GQ’S MOST EXPENSIVEST SHIT: 2 CHAINZ BUYS $14K CHAIR? </p>
-            </div>
-        </div><!-- end card 5-->
-        </div><!-- end col-3 subnews-->
-      </div><!-- end  row -->
+          <div class="col-lg-3 col-sm-6 subnews">
+            <div class="card card-top">
+              <img class="card-img" src="images/2chainz_news_3.jpg" alt="Card image">
+              <div class="card-block-small">
+                <p class="card-text">2 CHAINZ PERFORMING LIVE AT HEMPCON NOV. 7TH</p>
+              </div>
+          </div><!-- end card 4-->
 
-       <div class="row">
-        <div class="news-button">
-          <button type="button" class="btn btn-outline-primary">VIEW MORE</button>
+            <div class="card">
+              <img class="card-img" src="images/2chainz_news_5.jpg" alt="Card image">
+              <div class="card-block-small">
+                <p class="card-text">GQ’S MOST EXPENSIVEST SHIT: 2 CHAINZ BUYS $14K CHAIR? </p>
+              </div>
+          </div><!-- end card 5-->
+          </div><!-- end col-3 subnews-->
+        </div><!-- end  row -->
+
+         <div class="row">
+          <div class="news-button">
+            <button type="button" class="btn btn-outline-primary">VIEW MORE</button>
+          </div>
         </div>
-      </div>
-      <div class="row">
-    </div><!-- end container -->
-  </section><!-- end section News -->
+        <div class="row">
+      </div><!-- end container -->
+    </section><!-- end section News -->
 
 
   <section class="tour">
     <div class="container">
       <div class="row">
-        <div class="col-8 offset-3 tour_title">
+        <div class="col-lg-9 col-sm-12 offset-lg-3 offset-0 tour_title">
           <h3>TOUR DATES</h3>
         </div><!-- end section News -->
       </div><!-- end row-->
 
       <div class="row">
-        <div class="col-9 offset-3">
+        <div class="col-lg-9 col-sm-12 offset-lg-3 offset-0">
           <table class="table table-borderless">
             <tbody>
               <tr>
                 <th scope="row" class="tour-date d-flex flex-column align-text-top">Apr <span class="tour-day">14</span></th>
-                <td class="tour-arena align-middle">CRISLER CENTER</td>
+                <td class="tour-arena align-middle" >CRISLER CENTER</td>
                 <td class="tour-city align-middle">Ann Arbor, MI</td>
                 <td class="tour-tix align-middle"><button type="button" class="btn btn-outline-primary">TICKETS</button></td>
               </tr>
@@ -244,19 +247,19 @@
   <section class="newsletter">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-12">
           <h3>NEWSLETTER</h3>
         </div>
       </div><!-- end row-->
       <form class="form-inline">
 
         <label class="sr-only" for="inlineFormInputGroup">Email</label>
-        <div class="input-group col-lg-6">
+        <div class="input-group col-lg-6 col-md-12 col-12">
           <input type="text" class="form-control" id="inlineFormInput" placeholder="EMAIL ADDRESS *">
         </div><!-- end input -->
 
         <label class="sr-only" for="inlineFormInputGroup">ZipCode</label>
-        <div class="input-group col-lg-6">
+        <div class="input-group col-lg-6 col-md-12 col-12">
           <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="ZIP CODE *">
         </div><!-- end input -->
 
@@ -282,17 +285,17 @@
   </section><!-- end newsletter -->
 
   <footer class="footer">
-    <div class="container col-lg-10">
+    <div class="container col-lg-10 col-md-12">
       <div class="row">
-        <div class="col-7">
+        <div class="col-lg-7 col-sm-12">
           <ul class="list-inline footer-copyrights">
             <li class="list-inline-item"><a class="nav-link" href="">©2017 DEF JAM RECORDS</a></li>
             <li class="list-inline-item"><a class="nav-link" href="">TERMS & CONDITIONS</a></li>
             <li class="list-inline-item"><a class="nav-link" href="">PRIVATE POLICY</a></li>
           </ul>
         </div><!-- end row -->
-        <div class="col-5">
-          <ul class="list-inline footer-links d-flex justify-content-end">
+        <div class="col-lg-5 col-sm-12 col-12">
+          <ul class="list-inline footer-links">
             <li class="list-inline-item"><a class="nav-link" href=""><i class="demo-icon icon-facebook"></i></a></li>
             <li class="list-inline-item"><a class="nav-link" href=""><i class="demo-icon icon-instagram"></i></a></li>
             <li class="list-inline-item"><a class="nav-link" href=""><i class="demo-icon icon-spotify-1"></i></a></li>
@@ -306,8 +309,8 @@
     </div><!-- end container -->
   </footer>
 
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>

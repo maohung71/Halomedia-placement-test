@@ -1,0 +1,404 @@
+/*Large devices (desktops, less than 1200px)*/
+@media(max-width: 1199px) {
+
+  /************* NAV *************/
+
+  .navbar {
+    height: 72px;
+  }
+
+  .nav-bar-main  ul li a{
+    margin-right: .6em;
+  }
+
+  .navbar-brand-centered{
+    font-size: 2em;
+  }
+
+  a.nav-link{
+    font-size: .9em;
+  }
+
+
+  /************* CAROUSEL *************/
+
+  .carousel-caption h1{
+    font-size: 4.8em;
+  }
+
+  .carousel-caption{
+    top: 180px;
+    right: 150px;
+  }
+
+  .carousel-caption .btn{
+    margin-top: .5em;
+    padding: .4em 2em;
+    font-size: 1.2em;
+  }
+
+  /************* LISTEN *************/
+
+  .album_listen{
+    margin: 5em auto 0;
+  }
+
+  .media img{
+    margin: 0 auto;
+
+  }
+
+  .album_list{
+    margin-right: 0;
+}
+
+/************* NEWS *************/
+
+.news{
+  margin: 5em auto 0;
+}
+
+.card-block {
+  font-size: 11px;
+  padding: 12px 8px 0;
+}
+
+.card-block-small{
+  font-size: 10px;
+  padding: 7px 10px 7px;
+}
+
+.news-button .btn{
+  padding: .7em 3em;
+}
+
+.news h3{
+  font-size: 1.4em;
+}
+
+.card-block-small{
+  font-size: 10px;
+}
+
+.news-button .btn{
+  padding: .6em 3em;
+  font-size: .8em;
+}
+
+/************* TOUR *************/
+
+table, .tour_title h3{
+  margin-left: 0;
+}
+
+.tour_title h3{
+  font-size: 1.4em;
+}
+
+table{
+  font-size: 1em;
+}
+
+/************* NEWSLETTER *************/
+
+.newsletter{
+  margin: 5.1em auto 0;
+}
+
+.newsletter h3{
+  font-size: 1.4em;
+}
+
+/************* FOOTER *************/
+
+.footer-copyrights, .footer-links{
+  font-size: .7em;
+}
+
+
+}
+
+
+
+
+/*Medium devices (tablets, less than 993px) */
+@media only screen and (max-width: 992px) {
+
+  /************* CAROUSEL *************/
+
+  .carousel-caption{
+    top: 280px;
+    left: 50px;
+  }
+
+  .carousel-caption h1{
+    font-size: 4em;
+  }
+
+  .navbar-brand-centered{
+    font-size: 1.6em;
+  }
+
+  .carousel-caption .btn{
+    margin-top: 0em;
+    padding: .4em 1.8em;
+    font-size: 1em;
+  }
+
+
+    /************* LISTEN *************/
+
+    .album_listen{
+      margin: 3em 0 0 1em;
+    }
+
+    media img{
+      margin-left: 6em;
+    }
+
+    .album_list{
+      margin-right: 0;
+  }
+
+    .media-body{
+      padding-left: 1em;
+    }
+
+    .media-body .btn-outline-primary{
+      font-size: .4em;
+      padding: 1.1em 0;
+      width: 6rem;
+    }
+
+    .album_listen span{
+      font-size: 1em;
+      letter-spacing: 2px;
+      word-spacing: 0px;
+   }
+
+
+/************* TOUR *************/
+
+.tour{
+  margin: 3em auto 0;
+}
+
+
+table, .tour_title{
+ /* font-size: 1em;*/
+  /*margin-left: 2em;*/
+}
+
+/*table{
+  font-size: 1em;
+}*/
+
+.table td, .table th{
+  padding-bottom: 3em;
+}
+
+/************* NEWSLETTER *************/
+
+.newsletter{
+  margin-bottom: 1em;
+}
+
+#inlineFormInput{
+  margin-bottom: 1em;
+}
+
+form .form-control{
+  font-size: .9em;
+  letter-spacing: 0;
+}
+
+.newsletter .btn {
+    padding: .6em 3em;
+    font-size: .8em;
+}
+
+.recordlabel, .subscribe{
+  font-size: .8em;
+}
+
+.privacy{
+  font-size: .7em;
+  padding: 0 0;
+}
+
+/************* FOOTER *************/
+
+.footer-copyrights, .footer-links{
+  font-size: .7em;
+}
+
+.footer-copyrights, .footer-links{
+    display: flex;
+    justify-content: center;
+  }
+
+
+}
+
+
+/*Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 767px) {
+
+  /************* NAV *************/
+
+  .carousel-thin-control-prev, .carousel-thin-control-next{
+    font-size: 2em;
+  }
+
+  .carousel-caption{
+    top:260px;
+  }
+
+  .carousel-caption h1{
+    font-size: 3.6em;
+  }
+
+  /************* LISTEN *************/
+
+
+  .album_list ul li a {
+    margin: 0 auto;
+    font-size: .75em;
+  }
+
+  .album_list{
+    padding-left: 0;
+  }
+
+  .media-body .btn-outline-primary{
+    padding: 1.1em 4em;
+    width: 10rem;
+  }
+
+  /************* NEWS *************/
+  .news{
+    padding:1em 3em;
+  }
+  .card-block {
+    font-size: 13px;
+    word-spacing: 2px;
+  }
+
+  .card-block-small {
+    padding: 10px 20px 10px;
+    font-size: 12px;
+    word-spacing: 0;
+    margin-top:
+  }
+
+  .card{
+    margin-top: 1em;
+  }
+
+  /************* NEWSLETTER *************/
+
+  .recordlabel ul li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .75em;
+  }
+
+}
+
+
+/*extra-small (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575px){
+
+  /************* CAROUSEL *************/
+
+  .carousel-item img{
+      width: 300%;
+
+  }
+
+  .carousel-caption{
+    top: 250px;
+    left:20px;
+  }
+
+  .carousel-caption h1{
+    font-size: 3em;
+  }
+  /************* LISTEN *************/
+
+  .media{
+    margin-top: 0;
+    padding: 1em .5em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media img{
+    margin-bottom: 2em;
+    padding: 1em 2em;
+  }
+
+  .media-body .btn-outline-primary{
+    width: 100%;
+  }
+
+  .album_list ul li a{
+    font-size: .7em;
+   }
+
+  /************* NEWS *************/
+
+  .news{
+    margin: 2em auto 2em;
+  }
+
+  .card{
+    margin-bottom: 2em;
+  }
+  /************* TOUR *************/
+
+  .tour{
+    margin: 4em 0 .5em 0;
+  }
+
+  table{
+    margin-left: .25em;
+    font-size: .7em;
+    word-spacing: 0;
+  }
+
+  .news-button{
+    margin: 0 auto 0;
+    padding:0;
+  }
+
+  /************* NEWSLETTER *************/
+
+  .newsletter{
+    margin: 3em auto .5em;
+  }
+
+  .recordlabel ul li a{
+    margin-bottom: .3em;
+  }
+
+  .privacy{
+    padding:0 8em;
+
+}
+
+  /************* FOOTER *************/
+
+  footer{
+    margin-top: 3.8em;
+  }
+
+  .footer-copyrights, .footer-links{
+    display: flex;
+    justify-content: center;
+  }
+
+
+}
+
+

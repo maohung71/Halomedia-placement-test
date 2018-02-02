@@ -1,10 +1,7 @@
 /********************* GLOBAL *********************/
 body{
   font-family: 'Work Sans', sans-serif;
-  /*background: #ffffff url("2chainz-goby.png") no-repeat top center;
-  background-size: 100%;*/
-
-  background: #05061a url("../assets/2chainz_tour.jpg") no-repeat center 85%;
+  background: #05061a url("../images/2chainz_tour.jpg") no-repeat center 85%;
   background-size: 100%;
 }
 
@@ -37,20 +34,6 @@ body{
   color: #fff;
 }
 
-/*.navbar-brand-centered {
-    position: absolute;
-    left: 50%;
-    display: block;
-    width: 160px;
-    text-align: center;
-    background-color: transparent;
-}
-
-.navbar>.container .navbar-brand-centered,
-.navbar>.container-fluid .navbar-brand-centered {
-    margin-left: -80px;
-}*/
-
 .navbar-brand-centered{
   font-family: 'American Typewriter', sans-serif;
   font-size: 2.6em;
@@ -64,6 +47,14 @@ body{
 
 a.nav-link{
   color: #fff;
+}
+
+.nav-link.active, a.nav-item.active{
+  color: #2d3d62;
+}
+
+.navbar-default{
+  z-index: 1030;
 }
 
 
@@ -89,7 +80,6 @@ a.nav-link{
   padding-left: .7em;
   word-spacing: -3px;
   color: white;
-
 }
 
 .carousel-caption h1 span{
@@ -110,16 +100,10 @@ a.nav-link{
   border-bottom: 2px solid #4e5771;
 }
 
-/*.carousel-controls{
- position:relative;
-
- width: 100%;
-  margin:0 auto;
-}*/
-
 .carousel-thin-control-prev, .carousel-thin-control-next{
   position:absolute;
   font-size: 4em;
+  top: 355px;
 }
 
 
@@ -132,23 +116,13 @@ a.nav-link{
 }
 
 
-.caption_arrow{
-  position: absolute;
-  top: 300px;
-  right: 434px;
-  img: 75%;
-
-  /*border: 1px solid red;*/
-}
 
 /********************* LISTEN ALBUM *********************/
 
 
 .album_listen{
+  margin: 2.1em auto 0;
   background-color: none;
-  margin: 8.4em auto 0;
-
-  /*border: 1px solid red;*/
 }
 
 .media img{
@@ -156,15 +130,13 @@ a.nav-link{
 }
 
 .media-body{
-  padding-left: 0;
-
-  /*border: 1px solid blue;*/
+  padding-left: .4em;
 }
 
 .album_listen span{
   font-family: 'Playfair Display', serif;
   font-size: 1.2em;
-  word-spacing: 2px;
+  word-spacing: 5px;
   line-height: .1em;
 }
 
@@ -188,7 +160,7 @@ a.nav-link{
 }
 
 .album_list{
-  margin-right: 1.6em;
+  margin-right: 1.5em;
 }
 
 .album_list ul{
@@ -198,16 +170,14 @@ a.nav-link{
 }
 
 .album_list ul li{
-  padding: .45em 0;
+  padding: .5em 0 .5em 0em;
 }
 
 .album_list ul li a{
-  font-size: .75em;
+  font-size: .73em;
   margin-left: -15px;
   padding-left:0;
   color: white;
-
-  /*border: 1px solid red;*/
 }
 
 
@@ -225,21 +195,17 @@ a.nav-link{
 /********************* NEWS *********************/
 
 .news{
-  margin: 8em auto 0;
-
-  /*border: 1px solid blue;*/
+  margin: 7.3em auto 0;
 }
 
-.news .col-6{
+.news .col-lg-6{
   padding: .2em;
   margin: 0;
 }
 
-.news .col-3{
+.news .col-lg-3{
   padding: 2px 3px;
   margin:0;
-
-  /*border: 1px solid red;*/
 }
 
 .subnews a img:first-child{
@@ -275,15 +241,15 @@ a.nav-link{
   background-color: none;
 }
 
-.card img{
+.card-img{
 border-radius: 0;
 }
 
 .card-block {
     position: absolute;
-    bottom: 0px;
+    bottom: 1px;
     left: 0px;
-    right: 0;
+    right: 0px;
     width: inherit;
     padding: 16px 8px 2px;
     font-size: 13px;
@@ -302,10 +268,6 @@ border-radius: 0;
     right: 0px;
     width: inherit;
     padding: 10px 30px 10px;
-    /*white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-weight: bold;*/
     font-size: 12px;
     word-spacing: 0;
     background-color: #081c40;
@@ -334,17 +296,7 @@ border-radius: 0;
 /********************* TOUR *********************/
 
 .tour{
-  margin: 11.5em auto 0;
-
-  /*border: 1px solid red;*/
-
-  /*background: #ffffff url("../assets/2chainz_tour.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 10em;*/
-
+  margin: 11.8em auto 0;
 }
 
 table{
@@ -353,7 +305,7 @@ table{
   font-size: 1.2em;
   padding-right: 3em;
   word-spacing: 10px;
-  color: white;
+  color: #fff;
 }
 
 
@@ -373,7 +325,7 @@ table{
 
 .tour_title h3{
   margin-top: .2em;
-  margin-left: 2em;
+  margin-left: 2.4em;
   font-size: 2em;
   font-weight: bold;
   letter-spacing: 10px;
@@ -383,20 +335,27 @@ table{
 
 .tour-arena{
   font-weight: bold;
-  padding-right: 0;
+  padding-right: 1em;
+
 }
 
 .tour-date{
   font-size: .8em;
   font-weight: 700;
   color: #cc923a;
+}
 
+.tour-city{
+  margin-left: 3em;
+  margin-right: 1em;
+
+border: 1px solid red;
 }
 
 .tour-tix{
-  padding-left:2em;
+  text-align: left;
+  border: 1px solid red;
 }
-
 
 .tour-day{
   font-family: 'Playfair Display', serif;
@@ -410,10 +369,8 @@ table{
 .tour-tix .btn{
   font-size: .6em;
   font-weight: bold;
-  padding: .8em 3em;
+  padding: .8em 3.2em;
 }
-
-
 
 
 
@@ -480,8 +437,8 @@ table{
 
 .privacy{
   font-size: .9em;
-  margin-top: 2em;
-  margin-bottom: 2.2em;
+  margin-top: 2.2em;
+  margin-bottom: 2.4em;
   word-spacing: 6px;
 }
 
@@ -507,7 +464,7 @@ form .form-control{
 /********************* FOOTER *********************/
 
 footer{
-  margin-top: 4.8em;
+  margin-top: 3.7em;
   padding-top: 1em;
   background-color: #000;
 }
@@ -523,7 +480,12 @@ footer{
 }
 
 .footer-links .nav-link{
-  padding-left: .3em;
+  padding-left: .6em;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: flex-end;
 }
 
 
