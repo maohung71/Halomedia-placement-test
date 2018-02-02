@@ -111,24 +111,24 @@
              <div class="row">
                <div class="col-lg-5 col-md-6 col-sm-12 col-12 album_list">
                  <ul >
-                   <li><a href=""><span class="track_number_icon"><i class="demo-icon icon-play-circled"></i></span> Good Drank - 2 Chainz, Gucci Mane, Quavo</a></li>
-                   <li><a href=""><span class="track_number">2</span> Champions - Kanye West, Gucci Mabne, Big Sean</a></li>
-                   <li><a href=""><span class="track_number">3</span> Watch Out - 2 Chainz</a></li>
-                   <li><a href=""><span class="track_number">4</span> It’s a Vibe - 2 Chainz, Ty Dolla $ign, Trey Songz </a></li>
-                   <li><a href=""><span class="track_number">5</span> Good Drank 2.0 - 2 Chainz, Gucci Mane, Quavo</a></li>
+                   <li><a href="#"><span class="track_number_icon"><i class="demo-icon icon-play-circled"></i></span> Good Drank - 2 Chainz, Gucci Mane, Quavo</a></li>
+                   <li><a href="#"><span class="track_number">2</span> Champions - Kanye West, Gucci Mabne, Big Sean</a></li>
+                   <li><a href="#"><span class="track_number">3</span> Watch Out - 2 Chainz</a></li>
+                   <li><a href="#"><span class="track_number">4</span> It’s a Vibe - 2 Chainz, Ty Dolla $ign, Trey Songz </a></li>
+                   <li><a href="#"><span class="track_number">5</span> Good Drank 2.0 - 2 Chainz, Gucci Mane, Quavo</a></li>
                  </ul>
                </div>
                <div class="col-lg-6 col-md-6 col-sm-12 col-12 album_list">
                  <ul>
-                   <li><a href=""><span class="track_number">6</span> We Own It (Fast & Furious) - 2 Chainz, Wiz Khalifa</a></li>
-                   <li><a href=""><span class="track_number">7</span> Big Amount - 2 Chainz</a></li>
-                   <li><a href=""><span class="track_number">8</span> Smartphone - 2 Chainz</a></li>
-                   <li><a href=""><span class="track_number">9</span>  El Chapo Jr - 2 Chainz</a></li>
-                   <li><a href=""><span class="track_number">10</span> I’m Diferent - 2 Chainz</a</li>
+                   <li><a href="#"><span class="track_number">6</span> We Own It (Fast & Furious) - 2 Chainz, Wiz Khalifa</a></li>
+                   <li><a href="#"><span class="track_number">7</span> Big Amount - 2 Chainz</a></li>
+                   <li><a href="#"><span class="track_number">8</span> Smartphone - 2 Chainz</a></li>
+                   <li><a href="#"><span class="track_number">9</span>  El Chapo Jr - 2 Chainz</a></li>
+                   <li><a href="#"><span class="track_number">10</span> I’m Diferent - 2 Chainz</a></li>
                  </ul>
                </div>
              </div>
-           </div>
+           </div><!-- end container-->
          </div> <!-- end media body-->
       </div> <!-- end media -->
   </section> <!-- end section Album Listen-->
@@ -255,12 +255,12 @@
 
         <label class="sr-only" for="inlineFormInputGroup">Email</label>
         <div class="input-group col-lg-6 col-md-12 col-12">
-          <input type="text" class="form-control" id="inlineFormInput" placeholder="EMAIL ADDRESS *">
+          <input type="text" class="form-control" id="emailVal" placeholder="EMAIL ADDRESS *" required>
         </div><!-- end input -->
 
         <label class="sr-only" for="inlineFormInputGroup">ZipCode</label>
         <div class="input-group col-lg-6 col-md-12 col-12">
-          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="ZIP CODE *">
+          <input type="text" class="form-control" id="zip" placeholder="ZIP CODE *" required>
         </div><!-- end input -->
 
       </form>
@@ -280,7 +280,7 @@
         <p>By selecting submit you agree to the Universal Music Group privacy policy.</p>
       </div>
 
-      <button type="submit" class="btn btn-outline-primary news_subscribe">SUBMIT</button>
+      <button type="submit" class="btn btn-outline-primary news_subscribe" onclick="validate()" >SUBMIT</button>
     </div><!-- end container -->
   </section><!-- end newsletter -->
 
@@ -308,7 +308,7 @@
       </div><!-- end row -->
     </div><!-- end container -->
   </footer>
-
+<script src='js/script.js'></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
